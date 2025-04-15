@@ -1,0 +1,9 @@
+# MCP服务器配置
+server:
+  port: 8000
+  timeout: 60
+
+# Marshal API配置
+api:
+  url: ""  # Marshal API服务地址
+  token: ""                     # API认证令牌（必填）
