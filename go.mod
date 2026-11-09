@@ -1,12 +1,10 @@
 module marshal-mcp
 
-go 1.21
-
-toolchain go1.23.2
+go 1.24
 
 require (
 	github.com/ThinkInAIXYZ/go-mcp v0.1.9
-	github.com/gorilla/mux v1.8.0
+	github.com/projectdiscovery/gologger v1.1.53
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -19,7 +17,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.17.4 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
 	github.com/logrusorgru/aurora v2.0.3+incompatible // indirect
@@ -29,7 +27,6 @@ require (
 	github.com/nwaples/rardecode v1.1.3 // indirect
 	github.com/orcaman/concurrent-map/v2 v2.0.1 // indirect
 	github.com/pierrec/lz4/v4 v4.1.2 // indirect
-	github.com/projectdiscovery/gologger v1.1.53 // indirect
 	github.com/projectdiscovery/utils v0.4.17 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
